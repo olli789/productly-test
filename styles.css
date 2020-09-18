@@ -1,15 +1,20 @@
-body {background-color: #F2F2F2;}
+body {
+    background-color: #F2F2F2;
+}
 
 section {
     display: flex;
-    flex-wrap: wrap;
     width: 1400px;
+    width: 100%;
     height: auto;
     justify-content: center;
+    margin-bottom: 50px;
+    
 }
 
-
 p {
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
 }
@@ -25,14 +30,23 @@ h4 {
 }
 
 .container {
-    background-color: #ccc;
-    width: 1110px;
-    height: auto;
     display: flex;
+    background-color: #ccc;
+    width: 590px;
+    height: auto;
     flex-direction: column;
-    float: left;
 }
 
-.first {
-     display: flex;
- }
+.one {
+    display: flex;
+
+}
+
+.image-res {width: 535px;
+    height: 100%;
+}
+
+.icon-size {width: 35px;
+height: 35px;
+margin-right: 25px;
+}
