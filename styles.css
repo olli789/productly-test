@@ -1,0 +1,38 @@
+body {background-color: #F2F2F2;}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1400px;
+    height: auto;
+    justify-content: center;
+}
+
+
+p {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 { 
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h4 {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background-color: #ccc;
+    width: 1110px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.first {
+     display: flex;
+ }
